@@ -1,3 +1,5 @@
+#Actual site: http://videohostlug.ct8.pl/
+
 from django.shortcuts import render
 from django.views.generic.base import View, HttpResponseRedirect, HttpResponse
 from .forms import RegisterForm, NewVideoForm, CommentForm, UserUpdateForm, ProfileUpdateForm
